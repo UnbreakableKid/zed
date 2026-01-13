@@ -17,7 +17,8 @@
         ]
     ],
     "checkver": {
-        "url": "https://github.com/gitbutlerapp/gitbutler"
+        "url": "https://app.gitbutler.com/downloads",
+        "regex": "([\\d.-]+)-(?<Build>[\\d]+)"
     },
     "autoupdate": {
         "architecture": {
