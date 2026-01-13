@@ -17,8 +17,8 @@
         ]
     ],
     "checkver": {
-        "url": "https://gitbutler.com/downloads",
-        "regex": "([\\d.-]+)-(?<Build>[\\d]+)"
+        "url": "https://releases.gitbutler.com/releases/release/windows/x86_64/0.0.0",
+        "regex": "releases/release/([\\d.]+)-(?<Build>\\d+)"
     },
     "autoupdate": {
         "architecture": {
