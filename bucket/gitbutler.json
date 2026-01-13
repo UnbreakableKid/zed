@@ -18,7 +18,8 @@
     ],
     "checkver": {
         "url": "https://gitbutler.com/downloads",
-        "regex": "release/([\\d.]+)-(?<Build>\\d+)/windows/x86_64/GitButler"
+        "regex": "release/([\\d.]+)-(?<Build>\\d+)/windows/x86_64/GitButler",
+        "useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
     },
     "autoupdate": {
         "architecture": {
